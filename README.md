@@ -32,7 +32,9 @@ the map. Jump to a section:
 <tr>
 <td width="70%">
 
-### [insurance-policy-rag-chunking-evaluation](https://github.com/mohitmail85/insurance-policy-rag-chunking-evaluation)
+### insurance-policy-rag-chunking-evaluation 🔒
+
+![Private](https://img.shields.io/badge/repo-private%20%E2%80%94%20paper%20under%20review-lightgrey?style=flat-square)
 
 A controlled, reproducible evaluation of RAG chunking strategies for
 insurance policy documents — run end-to-end on **two independent LLM
@@ -41,16 +43,10 @@ typical RAG demo with a custom abstention-accuracy metric, a
 retrieval-depth (k) ablation, and a documented, corrected measurement
 artifact in RAGAS itself — write-up included as an accompanying paper.
 
-**Key finding:** small, fixed-size chunking consistently beats both large
-fixed-size and semantic chunking on retrieval precision/recall and
-false-refusal rate, on both LLM backends.
+_Details and results will be shared once the paper is published._
 
 </td>
 <td width="30%" align="center">
-
-<a href="https://github.com/mohitmail85/insurance-policy-rag-chunking-evaluation">
-<img src="https://raw.githubusercontent.com/mohitmail85/insurance-policy-rag-chunking-evaluation/main/paper/figures/combined_ragas_metrics_by_provider.png" width="100%" alt="RAGAS metrics by chunking strategy" />
-</a>
 
 </td>
 </tr>
@@ -78,7 +74,7 @@ false-refusal rate, on both LLM backends.
 
 | Project | Description | Tech Stack |
 |---|---|---|
-| [insurance-policy-rag-chunking-evaluation](https://github.com/mohitmail85/insurance-policy-rag-chunking-evaluation) | Cross-model (Gemini + Claude) evaluation of chunking strategies for RAG, with an abstention-accuracy metric and a corrected RAGAS measurement artifact | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square) ![RAGAS](https://img.shields.io/badge/RAGAS-6f42c1?style=flat-square) ![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6B6B?style=flat-square) |
+| insurance-policy-rag-chunking-evaluation 🔒 _(private — paper under review)_ | Cross-model (Gemini + Claude) evaluation of chunking strategies for RAG, with an abstention-accuracy metric and a corrected RAGAS measurement artifact | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square) ![RAGAS](https://img.shields.io/badge/RAGAS-6f42c1?style=flat-square) ![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6B6B?style=flat-square) |
 
 ## 🤖 AI Agents
 
